@@ -1,24 +1,31 @@
-# Canvas-Matrix
-Provides the background effect like movie "The Matrix" with JavaScript and Canvas.
+# Canvas Matrix
+An amazing backgroud effect of website draw on canvas. It shows text flying in and out like as seen in "The Matrix" movie.
 
 ## Feature
-- Do not depend on jQuery
-- Easy to use
+- Do not depend on jQuery.
+- Small size, less than 2Kb.
+- Easy to implement, simple configuration.
+- You do not have to be a web developer to use it.
 
 ## How to use
-Download
+Download:
 ```
-git clone https://github.com/stevenjoezhang/Canvas-Matrix.git
-cd Canvas-Matrix
+git clone https://github.com/stevenjoezhang/canvas-matrix.js.git
+cd canvas-matrix.js
 ```
 then add this script to your html page:
 ```
 <script src="path/to/canvas-matrix.js"></script>
 ```
+or:
+```
+<script src="path/to/canvas-matrix.min.js"></script>
+```
 
 ## Config
-- `size` font-size px
+- `size` font-size in px
 - `font` font-name
+
 For example:
 ```
 <script src="path/to/canvas-matrix.js" size="20" font="arial"></script>

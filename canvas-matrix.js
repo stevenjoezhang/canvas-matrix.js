@@ -1,8 +1,8 @@
 /*
  * canvas-matrix.js
- * "The Matrix" like effect based on JavaScript and Canvas.
+ * JavaScript based "The Matrix" like implementation.
  * Created by Shuqiao Zhang in 2017.
- * http://zsq.im
+ * https://zhangshuqiao.org
  */
 
 /* 
@@ -21,7 +21,7 @@
 	var scripts = document.getElementsByTagName("script"),
 		script = scripts[scripts.length - 1],
 		fontSize = script.getAttribute("size") || 16,
-		fontName = script.getAttribute("font") || "微软雅黑";
+		fontName = script.getAttribute("font") || "Microsoft YaHei";
 
 	var canvas = document.createElement("canvas"),
 		context = canvas.getContext("2d");
