@@ -35,7 +35,7 @@ For example:
 ![image](sample.png)
 
 ## Credits
-* [Mimi](http://zsq.im) Developer of this project.
+* [Mimi](https://zhangshuqiao.org) Developer of this project.
 
 ## License
 Released under the GNU General Public License v3  

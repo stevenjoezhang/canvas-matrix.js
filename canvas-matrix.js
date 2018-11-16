@@ -35,7 +35,7 @@
 		drops = [],
 		str = "QWERTYUIOPASDFGHJKLZXCVBNM!@#$%^&*()1234567890qwertyuiopasdfghjklzxcvbnm";
 	for (var i = 0; i < colunms; i++) {
-		drops.push(Math.floor(canvas.height / fontSize) + 1);
+		drops.push(Math.ceil(canvas.height / fontSize) + 1);
 	}
 	setInterval(function() {
 		context.fillStyle = "rgba(0,0,0,0.05)";
@@ -43,9 +43,9 @@
 		context.font = "700 " + fontSize + "px " + fontName;
 		context.fillStyle = "#00cc33";
 		for (var i = 0; i < colunms; i++) {
-			var index = Math.floor(Math.random() * str.length);
-			var x = i * fontSize;
-			var y = drops[i] * fontSize;
+			var index = Math.floor(Math.random() * str.length),
+				x = i * fontSize,
+				y = drops[i] * fontSize;
 			context.fillText(str[index], x, y);
 			if (y >= canvas.height && Math.random() > 0.99) {
 				drops[i] = 0;
@@ -62,7 +62,7 @@
 		colunms = Math.floor(W / fontSize);
 		drops = [];
 		for (var i = 0; i < colunms; i++) {
-			drops.push(Math.floor(canvas.height / fontSize) + 1);
+			drops.push(Math.ceil(canvas.height / fontSize) + 1);
 		}
 	});
 }())
