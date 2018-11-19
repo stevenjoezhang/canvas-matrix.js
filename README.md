@@ -1,4 +1,5 @@
 # Canvas Matrix
+
 An amazing backgroud effect of website draw on canvas. It shows text flying in and out like as seen in "The Matrix" movie.
 
 ## Feature
@@ -40,3 +41,6 @@ For example:
 ## License
 Released under the GNU General Public License v3  
 http://www.gnu.org/licenses/gpl-3.0.html
+
+## TODO
+- Add more chars like `さかもとですか`

@@ -1,5 +1,5 @@
 /*
- * canvas-matrix.js
+ * Canvas Matrix
  * JavaScript based "The Matrix" like implementation.
  * Created by Shuqiao Zhang in 2017.
  * https://zhangshuqiao.org
@@ -21,7 +21,7 @@
 	var scripts = document.getElementsByTagName("script"),
 		script = scripts[scripts.length - 1],
 		fontSize = script.getAttribute("size") || 16,
-		fontName = script.getAttribute("font") || "Microsoft YaHei";
+		fontName = script.getAttribute("font") || "monospace";
 
 	var canvas = document.createElement("canvas"),
 		context = canvas.getContext("2d");
