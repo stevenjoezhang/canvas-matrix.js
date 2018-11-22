@@ -10,16 +10,18 @@ An amazing backgroud effect of website draw on canvas. It shows text flying in a
 
 ## How to use
 Download:
-```
+```bash
+# Clone this repository
 git clone https://github.com/stevenjoezhang/canvas-matrix.js.git
+# Go into the repository
 cd canvas-matrix.js
 ```
 then add this script to your html page:
-```
+```xml
 <script src="path/to/canvas-matrix.js"></script>
 ```
 or:
-```
+```xml
 <script src="path/to/canvas-matrix.min.js"></script>
 ```
 
@@ -28,7 +30,7 @@ or:
 - `font` font-name
 
 For example:
-```
+```xml
 <script src="path/to/canvas-matrix.js" size="20" font="arial"></script>
 ```
 
