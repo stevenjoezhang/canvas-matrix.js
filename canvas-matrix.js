@@ -40,7 +40,7 @@
 	setInterval(function() {
 		context.fillStyle = "rgba(0,0,0,0.05)";
 		context.fillRect(0, 0, W, H);
-		context.font = "700 " + fontSize + "px " + fontName;
+		context.font = `700 ${fontSize}px ${fontName}`;
 		context.fillStyle = "#00cc33";
 		for (var i = 0; i < colunms; i++) {
 			var index = Math.floor(Math.random() * str.length),

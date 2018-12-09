@@ -25,6 +25,11 @@ or:
 <script src="path/to/canvas-matrix.min.js"></script>
 ```
 
+### Using CDN
+```xml
+<script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/canvas-matrix.js/canvas-matrix.min.js"></script>
+```
+
 ## Config
 - `size` font-size in px
 - `font` font-name
