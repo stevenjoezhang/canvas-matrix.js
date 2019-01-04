@@ -25,7 +25,7 @@
 
 	var canvas = document.createElement("canvas"),
 		context = canvas.getContext("2d");
-	document.getElementsByTagName("body")[0].appendChild(canvas);
+	document.body.appendChild(canvas);
 	canvas.style.cssText = "position: fixed; top: 0; left: 0; background-color: #111; z-index: -1;";
 	var W = window.innerWidth,
 		H = window.innerHeight;
