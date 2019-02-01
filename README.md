@@ -2,6 +2,11 @@
 
 An amazing backgroud effect of website draw on canvas. It shows text flying in and out like as seen in "The Matrix" movie.
 
+**WARNING: DO NOT SUPPORT IE.**
+
+## Preview
+![image](sample.png)
+
 ## Feature
 - Do not depend on jQuery.
 - Small size, less than 2Kb.
@@ -38,9 +43,6 @@ For example:
 ```xml
 <script src="path/to/canvas-matrix.js" size="20" font="arial"></script>
 ```
-
-## Preview
-![image](sample.png)
 
 ## Credits
 * [Mimi](https://zhangshuqiao.org) Developer of this project.
