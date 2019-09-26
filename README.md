@@ -5,15 +5,18 @@ An amazing backgroud effect of website draw on canvas. It shows text flying in a
 **WARNING: DO NOT SUPPORT IE.**
 
 ## Preview
+
 ![image](sample.png)
 
 ## Feature
+
 - Do not depend on jQuery.
 - Small size, less than 2Kb.
 - Easy to implement, simple configuration.
 - You do not have to be a web developer to use it.
 
 ## How to use
+
 Download:
 ```bash
 # Clone this repository
@@ -31,11 +34,13 @@ or:
 ```
 
 ### Using CDN
+
 ```xml
 <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/canvas-matrix.js/canvas-matrix.min.js"></script>
 ```
 
 ## Config
+
 - `size` font-size in px
 - `font` font-name
 
@@ -45,11 +50,14 @@ For example:
 ```
 
 ## Credits
+
 * [Mimi](https://zhangshuqiao.org) Developer of this project.
 
 ## License
+
 Released under the GNU General Public License v3  
 http://www.gnu.org/licenses/gpl-3.0.html
 
 ## TODO
+
 - Add more chars like `さかもとですか`
