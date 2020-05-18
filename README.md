@@ -6,11 +6,12 @@ An amazing backgroud effect of website draw on canvas. It shows text flying in a
 
 ## Preview
 
-![image](sample.png)
+![Preview](sample.png)
+[Preview Link](https://mi.js.org/canvas-matrix.js/sample.html)
 
 ## Feature
 
-- Do not depend on jQuery.
+- No jQuery.
 - Small size, less than 2Kb.
 - Easy to implement, simple configuration.
 - You do not have to be a web developer to use it.
