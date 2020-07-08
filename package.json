@@ -1,0 +1,22 @@
+{
+  "name": "canvas-matrix.js",
+  "version": "0.0.1",
+  "description": "An amazing backgroud effect of website draw on canvas.",
+  "main": "canvas-matrix.js",
+  "scripts": {
+    "build": "terser canvas-matrix.js -o canvas-matrix.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenjoezhang/canvas-matrix.js.git"
+  },
+  "author": "Mimi <stevenjoezhang@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/stevenjoezhang/canvas-matrix.js/issues"
+  },
+  "homepage": "https://github.com/stevenjoezhang/canvas-matrix.js#readme",
+  "devDependencies": {
+    "terser": "^4.8.0"
+  }
+}

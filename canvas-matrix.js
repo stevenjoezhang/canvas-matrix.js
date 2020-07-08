@@ -18,23 +18,23 @@
  */
 
 (function() {
-	var scripts = document.getElementsByTagName("script"),
+	const scripts = document.getElementsByTagName("script"),
 		script = scripts[scripts.length - 1],
 		fontSize = script.getAttribute("size") || 16,
 		fontName = script.getAttribute("font") || "monospace";
 
-	var canvas = document.createElement("canvas"),
+	const canvas = document.createElement("canvas"),
 		context = canvas.getContext("2d");
 	document.body.appendChild(canvas);
 	canvas.style.cssText = "position: fixed; top: 0; left: 0; background-color: #111; z-index: -1;";
-	var W = window.innerWidth,
+	let W = window.innerWidth,
 		H = window.innerHeight;
 	canvas.width = W;
 	canvas.height = H;
-	var colunms = Math.floor(W / fontSize),
+	let colunms = Math.floor(W / fontSize),
 		drops = [],
 		str = "QWERTYUIOPASDFGHJKLZXCVBNM!@#$%^&*()1234567890qwertyuiopasdfghjklzxcvbnm";
-	for (var i = 0; i < colunms; i++) {
+	for (let i = 0; i < colunms; i++) {
 		drops.push(Math.ceil(canvas.height / fontSize) + 1);
 	}
 	setInterval(function() {
@@ -42,8 +42,8 @@
 		context.fillRect(0, 0, W, H);
 		context.font = `700 ${fontSize}px ${fontName}`;
 		context.fillStyle = "#00cc33";
-		for (var i = 0; i < colunms; i++) {
-			var index = Math.floor(Math.random() * str.length),
+		for (let i = 0; i < colunms; i++) {
+			const index = Math.floor(Math.random() * str.length),
 				x = i * fontSize,
 				y = drops[i] * fontSize;
 			context.fillText(str[index], x, y);
@@ -61,7 +61,7 @@
 		canvas.height = H;
 		colunms = Math.floor(W / fontSize);
 		drops = [];
-		for (var i = 0; i < colunms; i++) {
+		for (let i = 0; i < colunms; i++) {
 			drops.push(Math.ceil(canvas.height / fontSize) + 1);
 		}
 	});
