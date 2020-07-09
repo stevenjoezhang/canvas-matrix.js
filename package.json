@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/stevenjoezhang/canvas-matrix.js.git"
   },
-  "author": "Mimi <stevenjoezhang@gmail.com>",
+  "author": "Mimi <stevenjoezhang@gmail.com> (https://zhangshuqiao.org)",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/stevenjoezhang/canvas-matrix.js/issues"

@@ -37,7 +37,7 @@ or:
 ### Using CDN
 
 ```xml
-<script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/canvas-matrix.js/canvas-matrix.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-matrix.js@0/canvas-matrix.min.js"></script>
 ```
 
 ## Config
