@@ -18,8 +18,7 @@
  */
 
 (function() {
-	const scripts = document.getElementsByTagName("script"),
-		script = scripts[scripts.length - 1],
+	const script = document.currentScript,
 		fontSize = script.getAttribute("size") || 16,
 		fontName = script.getAttribute("font") || "monospace";
 

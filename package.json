@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/stevenjoezhang/canvas-matrix.js#readme",
   "devDependencies": {
-    "terser": "^4.8.0"
+    "terser": "^5.0.0"
   }
 }
