@@ -6,10 +6,7 @@
   "scripts": {
     "build": "terser canvas-matrix.js -o canvas-matrix.min.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stevenjoezhang/canvas-matrix.js.git"
-  },
+  "repository": "stevenjoezhang/canvas-matrix.js",
   "author": "Mimi <stevenjoezhang@gmail.com> (https://zhangshuqiao.org)",
   "license": "GPL-3.0-or-later",
   "bugs": {
@@ -17,6 +14,6 @@
   },
   "homepage": "https://github.com/stevenjoezhang/canvas-matrix.js#readme",
   "devDependencies": {
-    "terser": "^5.0.0"
+    "terser": "^5.5.1"
   }
 }
