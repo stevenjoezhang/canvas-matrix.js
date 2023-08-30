@@ -7,7 +7,7 @@ An amazing backgroud effect of website draw on canvas. It shows text flying in a
 ## Preview
 
 ![Preview](sample.png)
-[Preview Link](https://mi.js.org/canvas-matrix.js/sample.html)
+[Preview Link](https://stevenjoezhang.github.io/canvas-matrix.js/sample.html)
 
 ## Feature
 
